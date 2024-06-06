@@ -1,0 +1,68 @@
+body {
+  background-color: rgb(6, 64, 95);
+}
+
+.container {
+  background-color: #f5f5f5;
+  width: 20em;
+  height: 35em;
+  margin: 70px auto 20px auto;
+  border-radius: 10px;
+  padding: 20px;
+  align-items: center;
+}
+
+.title {
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-weight: bold;
+  color: #37c413;
+}
+
+.labels {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.bmi-input {
+  width: 100%;
+  height: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.cal-btn,
+.reload-btn {
+  width: 50%;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.cal-btn {
+  background-color: #169410;
+  color: white;
+}
+
+.reload-btn {
+  background-color: #6c757d;
+  color: white;
+}
+
+.cal-btn:hover,
+.reload-btn:hover {
+  opacity: 0.9;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.p-msg {
+  font-size: 16px;
+  font-weight: bold;
+  color: #169410;
+}
